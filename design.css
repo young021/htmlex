@@ -10,19 +10,41 @@
 
 .circle1{
     background-color:rgb(102, 198, 236);
-    width:300px;
-    height:300px;
-    padding :100px;
-    border-radius: 1000px;
+    width:25%;;
+    height:60%;
+    padding :10%;
+    border-radius: 100%;
     float : left;
     margin-right:50px;
    
 }
+.circle2{
+    background-color:rgb(181, 224, 190);
+    width:25%;
+    height:60%;
+    padding :10%;
+    border-radius: 100%;
+    margin : 0 auto;
+    top:-50% auto;
+    float : left;
+    
+}
+.circle3{
+    background-color:rgb(240, 212, 235);
+    width:25%;
+    height:60%;
+    padding :10%;
+    border-radius: 100%;
+    margin : 0 auto;
+    margin-right:30px;
+}
+
+
 .text1{
     padding: 5px 10px;
     position: absolute;
     font-weight: bold;
-    top:18%;
+    top:30%;
     background-color: rgba( 255, 255, 255, 0.5 );
     text-align: center;
     transform: translate( 60%, -60% );
@@ -83,30 +105,9 @@
     background-color:black;
     margin : 0 auto;}
 
-    .circle2{
-        background-color:rgb(181, 224, 190);
-        width:300px;
-        height:300px;
-        padding :100px;
-        border-radius: 1000px;
-        margin : 0 auto;
-        top:-50% auto;
-        float : left;
-        
-    }
+    
 
-    .circle3{
-        background-color:rgb(240, 212, 235);
-        width:300px;
-        height:300px;
-        padding :100px;
-        border-radius: 1000px;
-        margin : 0 auto;
-        margin-right:30px;
-        
-        
-       
-    }
+    
     h4,h3,h2{
         Text-align : center
         
@@ -126,6 +127,5 @@
         position: absolute;
         font-weight: bold;
         transform: translate( 80%, -50% );
-      
-        
     }
+    
