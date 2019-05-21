@@ -1,57 +1,133 @@
-.block1{
-    width:200px;
-    height:200px;
-    background-color:red;
+
+/* .son1,.son2,.son3,.son4 {
+    background-color:indigo;
+    border : 3px solid purple;
+
+} */
+/* _____________________________________________________________________________ */
+
+
+
+.circle1{
+    background-color:rgb(102, 198, 236);
+    width:300px;
+    height:300px;
+    padding :100px;
+    border-radius: 1000px;
+    float : left;
+    margin-right:50px;
+   
 }
-
-.block2{
-    width:200px;
-    height:200px;
-    background-color:blue;
+.text1{
+    padding: 5px 10px;
+    position: absolute;
+    font-weight: bold;
+    top:18%;
+    background-color: rgba( 255, 255, 255, 0.5 );
+    text-align: center;
+    transform: translate( 60%, -60% );
 }
-/* 태그는 .이 필요없지만 클래스는 필요 */
-
-.block1,.block2{
-    width:200px;
-    height:200px;
-    background-color:green;
-} 
-/* 두개동시에도 가능 */
-
-#block3{
-    width:200px;
-    height:200px;
-    margin : 0 auto;
+.text11{
     
+    position: absolute;
+    font-weight: bold;
+    transform: translate( 50%, -50% );
+  
+    
+}
+.text2{
+    padding: 5px 10px;
+    position: absolute;
+    font-weight: bold;
+    top:30%;
+    background-color: rgba( 255, 255, 255, 0.5 );
+    text-align: center;
+    transform: translate(350%, -60% );
+ 
+
 
 }
-#block4{
-    width:200px;
-    height:200px;
-    margin : 0 ;
-    position : absolute;
-    right :0;
+.text3{
+    padding: 5px 10px;
+    position: absolute;
+    font-weight: bold;
+    top:30%;
+    left: 60% ;
+    background-color: rgba( 255, 255, 255, 0.5 );
+    transform: translate( -200%, -60% );
 
 }
+.text4{
+    padding: 5px 10px;
+    position: absolute;
+    font-weight: bold;
+    top:30%;
+    left: 70%;
+    background-color: rgba( 255, 255, 255, 0.5 );
+    transform: translate( 30%, -50% );
 
-h4,h3,h2{
-    Text-align : center
 }
-
-    /* important >id> class 보다 우선임. */
-
+.wrap{
+    position:relative;
+}
+.cen{
+    Text-align : center;
+    font-weight: bold;
+}
+.cen2{
+    font-weight: bold;
+}
 .parent{
     width:200px;
     height:200px;
     background-color:blue;
     border:black solid 10px;
     background: url('1234.png') no-repeat center center;
-    margin : 0 auto;
+    margin : 0 auto;}
 
+    .circle2{
+        background-color:rgb(181, 224, 190);
+        width:300px;
+        height:300px;
+        padding :100px;
+        border-radius: 1000px;
+        margin : 0 auto;
+        top:-50% auto;
+        float : left;
+        
+    }
 
-}
-/* .son1,.son2,.son3,.son4 {
-    background-color:indigo;
-    border : 3px solid purple;
+    .circle3{
+        background-color:rgb(240, 212, 235);
+        width:300px;
+        height:300px;
+        padding :100px;
+        border-radius: 1000px;
+        margin : 0 auto;
+        margin-right:30px;
+        
+        
+       
+    }
+    h4,h3,h2{
+        Text-align : center
+        
+    }
 
-} */
+    h5{
+        color:black;
+        
+        
+    }
+    .cen3{
+        margin : 0 auto;
+    }
+
+    .text12{
+    
+        position: absolute;
+        font-weight: bold;
+        transform: translate( 80%, -50% );
+      
+        
+    }
